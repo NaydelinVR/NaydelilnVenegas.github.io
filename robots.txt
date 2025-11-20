@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://naydelinvr.github.io/sitemap.xml
+
+# Disallow archivos específicos
+Disallow: /css/
+Disallow: /js/
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /README.md

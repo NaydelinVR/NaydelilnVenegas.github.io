@@ -1,0 +1,29 @@
+{
+  "name": "naydelin-venegas-portfolio",
+  "version": "1.0.0",
+  "description": "Portafolio profesional de Naydelin Venegas - Desarrolladora Web",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'Abriendo portafolio...' && start index.html",
+    "deploy": "git add . && git commit -m 'Deploy update' && git push origin main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaydelinVR/NaydelilnVenegas.github.io.git"
+  },
+  "keywords": [
+    "portfolio",
+    "web-developer",
+    "frontend",
+    "backend",
+    "fullstack",
+    "responsive",
+    "github-pages"
+  ],
+  "author": "Naydelin Venegas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NaydelinVR/NaydelilnVenegas.github.io/issues"
+  },
+  "homepage": "https://naydelinvr.github.io/NaydelilnVenegas.github.io/"
+}

@@ -1,0 +1,31 @@
+# Configuración para GitHub Pages
+# Este archivo asegura que tu sitio se despliegue correctamente
+
+# Nombre del sitio
+name: Naydelin Venegas Portfolio
+
+# Tema (opcional, puedes comentar esta línea)
+# theme: jekyll-theme-minimal
+
+# URL base (déjalo vacío para GitHub Pages de usuario)
+baseurl: ""
+
+# URL del sitio (reemplaza con tu dominio si tienes uno personalizado)
+url: "https://naydelinvr.github.io"
+
+# Plugins de Jekyll (opcional)
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Excluir archivos del build
+exclude:
+  - README.md
+  - .gitignore
+  - .git
+  - .github
+
+# Incluir archivos específicos
+include:
+  - _redirects
+  - .htaccess

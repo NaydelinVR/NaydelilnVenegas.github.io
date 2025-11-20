@@ -1,0 +1,56 @@
+# Archivos y directorios que Git debe ignorar
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Dependencias de Node (si las usas en el futuro)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Archivos de build
+dist/
+build/
+.cache/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+.env
+
+# Backups
+*.bak
+*.backup
+
+# Carpetas de pruebas
+test/
+tests/
+__tests__/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Jekyll (GitHub Pages)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Archivos personales
+TODO.md
+NOTES.md
